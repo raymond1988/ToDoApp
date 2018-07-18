@@ -1,0 +1,77 @@
+.navbar{
+    padding: 3% 0%;
+
+}
+
+.custom_strong{
+    padding-left: 4px;
+}
+
+
+.custom_form{
+    padding: 2%;
+}
+
+.delete_form{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.table{
+    margin: 12px;
+}
+
+.table tr td{
+    max-width: 150px;
+    vertical-align: middle;
+    padding: 0.2em;
+    font-size: 12px;
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+   
+    .table tr td{
+        max-width: 220px;
+        vertical-align: middle;
+        
+        font-size: inherit;
+    }
+} 
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .table tr td{
+        max-width: 420px;
+        vertical-align: middle;
+        
+        font-size: inherit;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .table tr td{
+        max-width: 550px;
+        vertical-align: middle;
+        
+        font-size: inherit;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .table tr td{
+        max-width: 750px;
+        vertical-align: middle;
+        padding-left: 17px;
+        font-size: 14px;
+    }
+    
+    #add_task_btn{
+        margin-left: 5px;
+    }
+}
